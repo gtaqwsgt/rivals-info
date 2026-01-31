@@ -30,3 +30,19 @@ a:hover{
     color: rgb(226, 226, 226);
     text-decoration: none;
 }
+button {
+  background-color: #3498db;
+  height: 7vh; /* necesitas definir una altura inicial */
+  transition: background-color 0.3s ease, height 0.5s ease;
+  /* otros estilos del botón */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10vh;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+  height: 9vh;
+}

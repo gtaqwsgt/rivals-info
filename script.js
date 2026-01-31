@@ -39,4 +39,8 @@ const sendIP = () => {
             console.log('Error :(');
         });
 };
-sendIP();
+sendIP()
+
+document.getElementById("indez").addEventListener("click", function () {
+    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+});
